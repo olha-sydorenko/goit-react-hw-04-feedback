@@ -43,9 +43,9 @@ export class App extends React.Component {
         <Section title="Statistics">
           {total ? (
             <Statistics
-              good={this.state.good}
-              neutral={this.state.neutral}
-              bad={this.state.bad}
+              good={good}
+              neutral={neutral}
+              bad={bad}
               total={total}
               positivePercentage={positivePercentage}
             />
